@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-# Converts Less to Sass 
+#bcrypt ensures that hackers won't be able to log in
+gem 'bcrypt', '~> 3.1.11'
+# Converts Less to Sass
 gem 'bootstrap-sass', '3.3.6'
 # Use Puma as the app server
 gem 'puma', '~> 3.4.0'
